@@ -9,6 +9,9 @@ require("dotenv").config();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+// Enable CORS for all routes
+app.use(cors());
+
 //--- db
 const { connectionDB } = require("./Config/Database");
 

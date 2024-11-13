@@ -18,7 +18,7 @@ function ImageUpload() {
   const storage = new CloudinaryStorage({
     cloudinary: cloudinary,
     params: {
-      folder: "Practicals", // Folder name in Cloudinary
+      folder: "Practical", // Folder name in Cloudinary
       allowed_formats: ["jpg", "png"],
     },
   });

@@ -26,29 +26,7 @@ const Navbar = () => {
           <div
             className="collapse navbar-collapse justify-content-center"
             id="navbarNav"
-          >
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <Link
-                  className="nav-link active"
-                  aria-current="page"
-                  to="/"
-                  style={{ color: "white" }} // Ensuring text is white for contrast
-                >
-                  Add User
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  to="/userlist"
-                  style={{ color: "white" }} // Ensuring text is white for contrast
-                >
-                  User List
-                </Link>
-              </li>
-            </ul>
-          </div>
+          ></div>
         </div>
       </nav>
     </>
